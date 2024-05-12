@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Meu Portfólio</title>
+
+    <style>
+
+        .header {
+        }
+
+            .header img {
+                width: 100%;
+                height: 250px;
+            }
+
+        .cabeçalho {
+            display: flex;
+            justify-content: center;
+            background: black;
+            height: 100%;
+        }
+
+            .cabeçalho a {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: Arial;
+                font-weight: bold;
+            }
+
+            .cabeçalho li {
+                color: white;
+                display: inline-block;
+                margin-inline-end: 100px;
+            }
+
+            .cabeçalho ul {
+                list-style: none;
+            }
+
+        .footer {
+            background: black;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            padding: 10px;
+        }
+
+        .principal {
+            display: grid;
+            grid-template-columns: repeat(24, 75px);
+            grid-template-rows: repeat(6, 76px);
+        }
+
+            .principal ul {
+                grid-column: 8/20;
+                grid-row: 3/6;
+                font-family: Arial;
+                font-size: 16px;
+                height: 100%;
+                width: 100%
+            }
+
+            .principal h3 {
+                grid-column: 11/14;
+                grid-row: 1;
+                font-size: 50px;
+            }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="capa.jpg" />
+    </header>
+
+    <div class="cabeçalho">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Sobre mim</a></li>
+                <li><a href="Formacao.html">Formação</a></li>
+                <li><a href="Portfolio.html">Portfólio</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="principal">
+
+        <h3> Formação</h3>
+
+        <ul>
+            <li>Formado em administração de empresas pela Universidade Estadual de Maringá</li>
+            <br />
+            <br />
+            <li>Cursando análise e desenvolvimento de empresas pela UNINTER</li>
+            <br />
+            <br />
+            <li>Inglês intermediário</li>
+            <br />
+            <br />
+            <li>Conhecimento em desenvolvimento web e linguagem Java</li>
+        </ul>
+
+    </section>
+
+
+
+    <footer class="footer">
+    </footer>
+
+</body>
+</html>
